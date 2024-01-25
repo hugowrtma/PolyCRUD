@@ -55,7 +55,7 @@ include_once './koneksi.php';
     <nav class="flex items-center shadow-md h-20 bg-white">
         <div class="container flex mx-auto justify-between">
             <div class="flex gap-20">
-                <h1 class="text-emerald-800 md:text-2xl font-bold border">Sistem Poliklinik</h1>
+                <h1 class="text-emerald-800 md:text-2xl font-bold border">Poliklinik Jaya</h1>
 
                 <ul class="flex flex-row gap-5 items-center">
 
@@ -116,7 +116,7 @@ if (isset($_GET['page'])) {
 } else {
     // echo "<br><h2>Selamat Datang di Sistem Informasi Poliklinik";
     echo "
-            <section class='relative bg-indigo-800 bg-jumbotron'>
+            <section class='relative bg-emerald-800 bg-jumbotron'>
                 <div class='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative'>
             ";
 
@@ -124,16 +124,16 @@ if (isset($_GET['page'])) {
         //jika sudah login tampilkan nama
         //jika sudah login tampilkan nama
         echo '
-            <a href="#" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm rounded-full bg-teal-900 text-white hover:bg-teal-800">
-                <span class="text-xs bg-teal-600 rounded-full text-white px-4 py-1.5 me-3">TERIMAKASIH</span> <span class="text-sm font-medium">Anda sudah login</span>
+            <a href="#" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm rounded-full bg-cyan-900 text-white hover:bg-cyan-800">
+                <span class="text-xs bg-cyan-600 rounded-full text-white px-4 py-1.5 me-3">TERIMAKASIH</span> <span class="text-sm font-medium">Anda sudah masuk</span>
                 <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                 </svg>
             </a>
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Selamat Datang di Sistem Informasi Dokter Poliklinik Jaya, <span class="text-emerald-500">'
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Selamat Datang di Sistem Informasi Dokter Poliklinik Jaya, <span class="text-cyan-500">'
             . $_SESSION['nama'] . '
             </span></h1>
-            <p class="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-gray-200">Halo dokter, tolong gunakan sistem ini sebijak mungkin.</p>
+            <p class="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-gray-200">Halo dokter, terimakasih telah menggunakan sistem kami.</p>
             </div></section>
             <div class="grid grid-cols-3 gap-5 container mx-auto mt-10">
                 <div class="border border-neutral-300 p-10 rounded-md">

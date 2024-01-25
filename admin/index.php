@@ -133,10 +133,10 @@ if (isset($_GET['page'])) {
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                 </svg>
             </a>
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Selamat Datang di Sistem Informasi Poliklinik Jaya, <span class="text-emerald-500">'
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Selamat Datang di Sistem Informasi Admin Poliklinik Jaya, <span class="text-emerald-500">'
             . $_SESSION['username'] . '
             </span></h1>
-            <p class="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-gray-200">Terimakasih sudah menggunakan sistem ini dengan bijak.</p>
+            <p class="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-gray-200">Halo admin, terimakasih sudah menggunakan sistem kami.</p>
             </div></section>
             <div class="grid grid-cols-3 gap-5 container mx-auto mt-10">
                 <div class="border border-neutral-300 p-10 rounded-md">

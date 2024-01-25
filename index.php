@@ -56,10 +56,10 @@ include_once './koneksi.php';
             <div class="flex">
                 <ul class="flex flex-row gap-5 items-center">
                     <li>
-                        <a href="index.php" class="text-amber-800 md:font-semibold font-popins">Home</a>
+                        <a href="index.php" class="text-cyan-800 md:font-semibold font-popins">Home</a>
                     </li>
                     <li>
-                        <a href="index.php?page=rekamMedis" class="text-amber-800 md:font-semibold">Cek RM</a>
+                        <a href="index.php?page=rekamMedis" class="text-cyan-800 md:font-semibold">Cek RM</a>
                     </li>
                 </ul>
             </div>
